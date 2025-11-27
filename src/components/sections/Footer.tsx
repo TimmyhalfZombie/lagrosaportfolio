@@ -5,7 +5,7 @@ import { XIcon } from '../shared/XIcon';
 export const Footer = () => {
   return (
     <>
-    <footer className="mt-48 border-t border-gray-800 pt-12 pb-0 animate-fade-in delay-700">
+    <footer className="mt-28 border-t border-gray-800 pt-12 pb-0 animate-fade-in delay-700">
       <div className="flex justify-center gap-8 mb-2">
         <SocialIcon Icon={Facebook} href="#" />
         <SocialIcon Icon={Instagram} href="#" />
