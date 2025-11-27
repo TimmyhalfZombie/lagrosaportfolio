@@ -9,7 +9,7 @@ import { Footer } from './components/sections/Footer';
 // --- Main Application ---
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('Home');
+  const [activeTab, setActiveTab] = useState('About Me');
   
   const scrollToSection = (sectionId: string, tabName: string) => {
     setActiveTab(tabName);

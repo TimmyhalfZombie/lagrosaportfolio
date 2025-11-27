@@ -7,7 +7,7 @@ export const SkillBadge = ({ icon: Icon, label, color }: { icon: any, label: str
       `} style={{ color }}>
         <Icon size={28} />
       </div>
-      <span className="text-[10px] text-gray-500 uppercase tracking-wider group-hover:text-gray-300 transition-colors">{label}</span>
+      <span className="text-xs text-gray-500 uppercase tracking-wider group-hover:text-gray-300 transition-colors">{label}</span>
     </div>
     <style>
       
@@ -45,7 +45,7 @@ export const SkillBadge = ({ icon: Icon, label, color }: { icon: any, label: str
   }
 
   .skill-label {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     color: rgb(107, 114, 128);
     text-transform: uppercase;
     letter-spacing: 0.05em;

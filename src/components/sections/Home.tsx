@@ -5,7 +5,7 @@ export const Home = () => {
         <h2 className="font-josefin text-xl mb-2 text-gray-400 animate-blur-fade">Hi, I am</h2>
         
         <div className="relative inline-block">
-          <h1 className="font-josefin text-6xl md:text-8xl text-white tracking-wide mb-4 font-bold animate-tracking-in delay-200">
+          <h1 className="font-josefin text-4xl md:text-8xl text-white tracking-wide mb-4 font-bold animate-tracking-in delay-200 whitespace-nowrap">
             Shemuel Rei Lagrosa
           </h1>
         </div>
@@ -37,11 +37,12 @@ export const Home = () => {
 
   .home-name {
     font-family: 'Josefin Slab', serif;
-    font-size: 3.75rem;
+    font-size: 2.25rem;
     color: white;
     letter-spacing: 0.025em;
     margin-bottom: 1rem;
     font-weight: bold;
+    white-space: nowrap;
   }
 
   @media (min-width: 768px) {

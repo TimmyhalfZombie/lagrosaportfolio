@@ -15,9 +15,9 @@ export const Navigation = ({ activeTab, scrollToSection }: NavigationProps) => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row">
         {/* Navigation Links */}
         <div className="flex-[3] flex border-l border-gray-700 border-r md:border-r-0">
-          <NavItem label="Home" active={activeTab === 'Home'} onClick={() => scrollToSection('home', 'Home')} />
           <NavItem label="About Me" active={activeTab === 'About Me'} onClick={() => scrollToSection('about', 'About Me')} />
-          <NavItem label="My Works" active={activeTab === 'My Works'} onClick={() => scrollToSection('works', 'My Works')} />
+          <NavItem label="Projects" active={activeTab === 'Projects'} onClick={() => scrollToSection('works', 'Projects')} />
+          <NavItem label="Skills" active={activeTab === 'Skills'} onClick={() => scrollToSection('skills', 'Skills')} />
         </div>
 
         {/* Social Icons */}

@@ -13,13 +13,15 @@ export const Projects = () => {
       <div className="space-y-16">
         <ProjectPlaceholder 
           title="Awesome To-do"
-          description="A full-featured online shopping platform built with React and Node.js. Features include real-time inventory management, secure payment integration, and a dynamic dashboard for admin analytics. Designed to scale with business growth."
+          description="A straightforward tool designed to help users organize daily tasks by adding, editing, and removing items. The main purpose of this project was to practice the basics of web development and learn how to build a functional, interactive application"
           image={todoImage}
+          link="https://todo-app-ni-tim.onrender.com/"
         />
         <ProjectPlaceholder 
           title="Assumption Iloilo Library"
-          description="A collaborative productivity tool designed for remote teams. Utilizes Firebase for real-time data syncing, allowing users to share lists, assign tasks, and track progress seamlessly across devices."
+          description="A project based on a discontinued concept for the school library. I built it to practice web development and create a simple tool for students to search for books, check availability, and view a campus map. The goal was to explore how a digital catalog could work as an alternative to manual systems."
           image={assumptionImage}
+          link="https://assumptioniloilo.vercel.app/#home"
         />
       </div>
     </div>

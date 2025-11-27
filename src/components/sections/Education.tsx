@@ -1,4 +1,4 @@
-import { GraduationCap, Code, Database, Server, Cpu, Layout, Terminal, FileCode, Flame, Smartphone, GitBranch, Github } from 'lucide-react';
+import { GraduationCap, Code, Database, Server, Cpu, Layout, Terminal, FileCode, Flame, Smartphone, GitBranch, Github, Zap } from 'lucide-react';
 import { EducationEntry } from '../shared/EducationEntry';
 import { SkillBadge } from '../shared/SkillBadge';
 
@@ -7,8 +7,8 @@ export const Education = () => {
     <>
     <div className="md:col-span-5 space-y-16 border-l border-gray-800 md:pl-12">
       {/* Education */}
-      <section>
-        <h3 className="font-josefin text-3xl text-white mb-8 border-b border-gray-700 pb-4 inline-block pr-12 font-bold">
+      <section className="pl-4 md:pl-0">
+        <h3 className="font-josefin text-2xl text-white mb-8 border-b border-gray-700 pb-4 inline-block pr-12 font-bold">
           EDUCATION
         </h3>
         
@@ -22,8 +22,8 @@ export const Education = () => {
       <div className="w-16 h-px bg-gray-600 mx-auto"></div>
 
       {/* Skills */}
-      <section className="animate-slide-up delay-700">
-        <h3 className="font-josefin text-3xl text-white mb-8 border-b border-gray-700 pb-4 inline-block pr-12 font-bold">
+      <section id="skills" className="animate-slide-up delay-700 pl-4 md:pl-0 scroll-mt-32">
+        <h3 className="font-josefin text-2xl text-white mb-8 border-b border-gray-700 pb-4 inline-block pr-12 font-bold">
           SKILLS
         </h3>
         
@@ -46,6 +46,8 @@ export const Education = () => {
           <SkillBadge icon={Cpu} label="React" color="#61dafb" />
           {/* Expo */}
           <SkillBadge icon={Smartphone} label="Expo" color="#ffffff" />
+          {/* Vite */}
+          <SkillBadge icon={Zap} label="Vite" color="#646CFF" />
           {/* Node */}
           <SkillBadge icon={Terminal} label="Node" color="#339933" />
           {/* Git */}
@@ -78,7 +80,7 @@ export const Education = () => {
 
   .education-title {
     font-family: 'Josefin Slab', serif;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 2rem;
     border-bottom: 1px solid rgb(55, 65, 81);
@@ -110,7 +112,7 @@ export const Education = () => {
 
   .skills-title {
     font-family: 'Josefin Slab', serif;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 2rem;
     border-bottom: 1px solid rgb(55, 65, 81);

@@ -6,7 +6,7 @@ export const AboutMe = () => {
     <section id="about" className="relative pt-8 animate-slide-up delay-400 scroll-mt-32">
       <div className="border border-gray-600 p-1 relative hover:border-gray-500 transition-colors duration-500">
         {/* "Floating" Label */}
-        <div className="absolute -top-4 left-8 bg-[#1a1a1a] px-6 py-1">
+        <div className="absolute -top-6 left-8 bg-[#1a1a1a] px-6 py-1 border border-gray-600">
           <h3 className="text-2xl font-josefin text-white tracking-widest uppercase">About Me</h3>
         </div>
         {/* Content Container */}
@@ -20,8 +20,8 @@ export const AboutMe = () => {
              />
           </div>
           {/* Text Content */}
-          <div className="bg-gray-500/10 p-6 text-base md:text-lg leading-relaxed font-josefin text-gray-400 text-justify border-l-2 border-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero et odio commodo, a faucibus turpis feugiat. Vestibulum nec ex nec purus vestibulum malesuada vel id sapien. Nunc sed purus nec odio tempor faucibus. Duis vitae molestie velit. Sed venenatis convallis justo, ac gravida tortor rhoncus nec. In pellentesque risus eget libero pulvinar vehicula. Maecenas vitae ligula non justo congue interdum. Nulla facilisi. Phasellus feugiat varius eros, vel laoreet magna sollicitudin in. Etiam vel nisi nec ligula mattis auctor. Vivamus nec enim in odio accumsan lobortis. Suspendisse potenti.
+          <div className="bg-gray-500/10 p-6 text-base md:text-lg leading-relaxed font-josefin text-gray-400 text-justify ">
+            I am a student with a strong interest in programming and web development. I enjoy learning by building practical projects, from school requirements to personal experiments. My goal is to keep exploring new technologies and solving problems through code.
           </div>
         </div>
       </div>
