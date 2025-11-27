@@ -5,7 +5,7 @@ import assumptionImage from '../../../assets/images/assumption.png';
 export const Projects = () => {
   return (
     <>
-    <div id="works" className="md:col-span-7 space-y-12 animate-slide-in-left delay-500 scroll-mt-32">
+    <div id="works" className="md:col-span-7 space-y-12 animate-slide-in-left delay-500 scroll-mt-32 ml-4 md:ml-0">
       <h3 className="font-josefin text-3xl text-white mb-8 border-b border-gray-700 pb-4 inline-block pr-12 font-bold">
         MY WORKS
       </h3>
