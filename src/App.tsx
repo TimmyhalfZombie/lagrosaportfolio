@@ -39,7 +39,7 @@ export default function App() {
         <AboutMe />
 
         {/* --- Split Layout: Works & Sidebar --- */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 border-t border-gray-800 pt-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 border-t border-gray-800 pt-16 -ml-4 md:-ml-8">
           {/* Left Column: Works */}
           <Projects />
 

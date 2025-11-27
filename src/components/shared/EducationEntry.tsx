@@ -5,7 +5,7 @@ export const EducationEntry = ({ icon: Icon, school, degree, years }: { icon: an
         <Icon size={24} />
       </div>
       <div className="flex flex-col pt-1">
-        <h4 className="font-josefin text-gray-300 text-2xl font-bold md:text-white md:group-hover:text-gray-300 transition-colors">{school}</h4>
+        <h4 className="font-josefin text-gray-300 text-2xl font-bold md:text-white md:group-hover:text-gray-300 md:whitespace-nowrap transition-colors">{school}</h4>
         <p className="font-josefin text-gray-400 text-lg mt-1">{degree}</p>
         <p className="font-josefin text-gray-500 text-base mt-1">{years}</p>
       </div>
@@ -74,6 +74,7 @@ export const EducationEntry = ({ icon: Icon, school, degree, years }: { icon: an
   @media (min-width: 768px) {
     .education-content h4 {
       color: white;
+      white-space: nowrap;
     }
 
     .education-entry:hover .education-content h4 {
