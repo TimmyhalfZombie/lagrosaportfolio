@@ -15,7 +15,7 @@ export const Education = () => {
         <div className="space-y-8">
           <EducationEntry icon={GraduationCap} school="Western Institute of Technology" degree="Bachelor of Science in Information Technology" years="2021 - Present" />
           <EducationEntry icon={GraduationCap} school="Cuyo National High School" degree="Senior High School" years="2018 - 2020" />
-          <EducationEntry icon={GraduationCap} school="Danawan National High School" degree="Junior Hign School" years="2014-2018" />
+          <EducationEntry icon={GraduationCap} school="Danawan National High School" degree="Junior High School" years="2014-2018" />
           <EducationEntry icon={GraduationCap} school="Los Angeles Elementary School" degree="" years="2008 - 2014" />
         </div>
       </section>

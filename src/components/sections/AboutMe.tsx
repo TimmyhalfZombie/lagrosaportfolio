@@ -21,7 +21,7 @@ export const AboutMe = () => {
           </div>
           {/* Text Content */}
           <div className="bg-gray-500/10 p-6 text-base md:text-lg leading-relaxed font-josefin text-gray-400 text-justify ">
-            I am a student with a strong interest in programming and web development. I enjoy learning by building practical projects, from school requirements to personal experiments. My goal is to keep exploring new technologies and solving problems through code.
+            I am a student with a strong interest in programming and web development. I enjoy learning by building practical projects, whether from school requirements to personal experiments. My goal is to continue exploring new technologies and solving problems through code.
           </div>
         </div>
       </div>
