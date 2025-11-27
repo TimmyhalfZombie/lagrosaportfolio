@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background: Dark Rounded Square to match theme -->
+  <rect width="64" height="64" rx="16" fill="#1a1a1a" />
+  
+  <!-- The "S" - Using a serif style to match Josefin Slab/Courier look -->
+  <text 
+    x="50%" 
+    y="55%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    font-family="Georgia, serif" 
+    font-size="42" 
+    fill="#ffffff" 
+    font-weight="bold"
+  >
+    S
+  </text>
+</svg>
+

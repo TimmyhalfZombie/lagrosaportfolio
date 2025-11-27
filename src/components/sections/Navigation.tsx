@@ -22,10 +22,10 @@ export const Navigation = ({ activeTab, scrollToSection }: NavigationProps) => {
 
         {/* Social Icons */}
         <div className="flex-1 flex justify-center items-center gap-6 py-4 border-l border-r border-gray-700 md:border-l border-t md:border-t-0">
-          <SocialIcon Icon={Facebook} href="#" />
-          <SocialIcon Icon={Send} href="#" />
-          <SocialIcon Icon={Instagram} href="#" />
-          <SocialIcon Icon={XIcon} href="#" />
+          <SocialIcon Icon={Facebook} href="https://www.facebook.com/share/1ADVQ2LdQM/" />
+          <SocialIcon Icon={Instagram} href="https://www.instagram.com/5_whole_pizza/" />
+          <SocialIcon Icon={XIcon} href="https://x.com/Gawgawaw" />
+          <SocialIcon Icon={Send} href="https://telegram.org/dl" /> 
         </div>
       </div>
     </nav>

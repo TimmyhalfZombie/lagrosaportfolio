@@ -7,10 +7,10 @@ export const Footer = () => {
     <>
     <footer className="mt-28 border-t border-gray-800 pt-12 pb-0 animate-fade-in delay-700">
       <div className="flex justify-center gap-8 mb-2">
-        <SocialIcon Icon={Facebook} href="#" />
-        <SocialIcon Icon={Instagram} href="#" />
-        <SocialIcon Icon={XIcon} href="#" />
-        <SocialIcon Icon={Send} href="#" />
+        <SocialIcon Icon={Facebook} href="https://www.facebook.com/share/1ADVQ2LdQM/" />
+        <SocialIcon Icon={Instagram} href="https://www.instagram.com/5_whole_pizza/" />
+        <SocialIcon Icon={XIcon} href="https://x.com/Gawgawaw" />
+        <SocialIcon Icon={Send} href="https://telegram.org/dl" />
       </div>
       <p className="text-center font-josefin text-sm text-gray-500 -mb-8">
         Copyright © 2024 Shemuel Rei Lagrosa. All Rights Reserved.
